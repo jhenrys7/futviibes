@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja futviibes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!-- O arquivo CSS -->
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Loja futviibes</h1>
+    <button id="abrirCarrinho">Abrir Carrinho</button> <!-- Botão para abrir o modal -->
+  </header>
+
+  <!-- Modal do Carrinho -->
+  <div id="modalCarrinho" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" id="fecharCarrinho">&times;</span>
+      <h2>Carrinho</h2>
+      <ul id="listaCarrinho">
+        <!-- Os itens do carrinho vão aparecer aqui -->
+      </ul>
+      <p>Total: R$ <span id="totalCarrinho">0.00</span></p>
+    </div>
+  </div>
+
+  <section class="produtos">
+    <!-- Produto 1 -->
+    <div class="produto">
+      <img src="produto1.jpg" alt="Produto 1" class="imagem-produto">
+      <h2>bola campo adidas </h2>
+      <p></p>
+      <button class="adicionar" data-preco="189,99">Adicionar ao carrinho - R$189,99</button>
+    </div>
+
+    <!-- Produto 2 -->
+    <div class="produto">
+      <img src="produto2.jpg" alt="Produto 2" class="imagem-produto">
+      <h2>bola futsal penalty</h2>
+      <p> </p>
+      <button class="adicionar" data-preco="30">Adicionar ao carrinho - R$ 99.99</button>
+    </div>
+
+    <!-- Produto 3 -->
+    <div class="produto">
+      <img src="produto3.jpg" alt="Produto 3" class="imagem-produto">
+      <h2>Chuteira Nike Phantom GX Elite Pro Campo</h2>
+      <p> </p>
+      <button class="adicionar" data-preco="25">Adicionar ao carrinho - R$ 1519.99</button>
+    </div>
+
+    <!-- Produto 4 -->
+    <div class="produto">
+      <img src="produto4.jpg" alt="Produto 4" class="imagem-produto">
+      <h2>Chuteira Futsal Nike React Gato</h2>
+      <p></p>
+      <button class="adicionar" data-preco="40">Adicionar ao carrinho - R$ 599.99</button>
+    </div>
+
+    <!-- Produto 5 -->
+    <div class="produto">
+      <img src="produto5.jpg" alt="Produto 5" class="imagem-produto">
+      <h2>chuteira nike phanton </h2>
+      <p></p>
+      <button class="adicionar" data-preco="60">Adicionar ao carrinho - R$ 899.99</button>
+    </div>
+
+    <!-- Produto 6 -->
+    <div class="produto">
+      <img src="produto6.jpg" alt="Produto 6" class="imagem-produto">
+      <h2>jaqueta corta vendo personali
+        zada </h2>
+      <p></p>
+      <button class="adicionar" data-preco="55">Adicionar ao carrinho - R$ 199.99</button>
+    </div>
+
+    <!-- Produto 7 -->
+    <div class="produto">
+      <img src="produto7.jpg" alt="Produto 7" class="imagem-produto">
+      <h2>bone personali
+        zado</h2>
+      <p></p>
+      <button class="adicionar" data-preco="45">Adicionar ao carrinho - R$ 70.99</button>
+    </div>
+
+    <!-- Produto 8 -->
+    <div class="produto">
+      <img src="produto8.jpg" alt="Produto 8" class="imagem-produto">
+      <h2>uniforme personali
+        zado </h2>
+      <p></p>
+      <button class="adicionar" data-preco="75">Adicionar ao carrinho - R$ 900.00</button>
+    </div>
+
+    <!-- Produto 9 -->
+    <div class="produto">
+      <img src="produto9.jpg" alt="Produto 9" class="imagem-produto">
+      <h2>camisa personali
+        zada </h2>
+      <p></p>
+      <button class="adicionar" data-preco="85">Adicionar ao carrinho - R$ 299.99</button>
+    </div>
+
+    <!-- Produto 10 -->
+    <div class="produto">
+      <img src="produto10.jpg" alt="Produto 10" class="imagem-produto">
+      <h2>luva adidas 
+        predator </h2>
+      <p></p>
+      <button class="adicionar" data-preco="90">Adicionar ao carrinho - R$ 249,99</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 futviibes</p>
+  </footer>
+
+  <script src="script.js"></script> <!-- O arquivo JavaScript -->
+</body>
+</html>
